@@ -7,7 +7,7 @@ body{
 
 
 header{
-    height: 81px;
+    min-height: 81px;
     width: 94%;
     margin: auto;
 }
@@ -45,7 +45,11 @@ ul > li >a:hover{
     height: 97px;
 }
 
-
+@media screen and (max-width: 576px) {
+    .a_form_col{
+       
+    }
+}
 
 
 @media (min-width: 1200px){
